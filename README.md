@@ -4,8 +4,8 @@
 </p>
 
 # Resumo do projeto
-- Um programa em C que realiza o gerenciamento de uma agenda de contatos, possibilitando o salvamento de até 50 contatos.<br>
-- Permite o **cadastro**, **visualização**, **remoção** e **salvamento** dos dados em um arquivo.
+- Um programa em C que realiza o gerenciamento de uma agenda, possibilitando o salvamento de até 50 contatos.<br>
+- Realiza o **cadastro**, **visualização**, **remoção** e **salvamento** dos dados da agenda em um arquivo.
 
 
 # :hammer: Funcionalidades do projeto
@@ -32,9 +32,7 @@ Escolha uma opcao: 1<br>
 Digite o nome do contato: Anna Beatriz<br>
 Digite o telefone (63 99999-9999): 6399999-9999<br>
 
-Contato adicionado!<br>
-*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*
-
+Contato adicionado!
 ## 👨‍💻 Autor
 
 - Desenvolvido por **Anna Beatriz Moura de Oliveira**
