@@ -1,0 +1,3 @@
+C:/ProjetosC/Agenda_de_Contato/cmake-build-debug/CMakeFiles/Agenda_de_Contato.dir
+C:/ProjetosC/Agenda_de_Contato/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/ProjetosC/Agenda_de_Contato/cmake-build-debug/CMakeFiles/rebuild_cache.dir
