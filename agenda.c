@@ -67,7 +67,6 @@ int main()
         }
 
     } while (op != 5);
-
     return 0;
 }
 
@@ -168,7 +167,6 @@ void salvarContatos(Contato *listContato, int totalContato)
         return;
     }
 
-    fprintf(arq_agenda, "%d", totalContato);
     for (int i = 0; i < totalContato; i++)
     {
         fprintf(arq_agenda, " %s, %s\n", listContato[i].nome, listContato[i].telefone);
@@ -185,18 +183,18 @@ void lerContatos(Contato *listContato, int *totalContato)
     FILE *arq_agenda = fopen("agenda.csv", "r");
     if (arq_agenda == NULL)
     {
-        printf("Erro na leitura do arquivo");
+        printf("Erro na leitura do arquivo\n");
         return;
     }
     printf("=-=-=-=-==--=-==-=-==-=-==-=-=-==-=-=-==-=-=-=-=-==-=-=-==-=-=\n");
     printf("Carregando a agenda...\n");
 
-    fscanf(arq_agenda, "%d\n", totalContato);
 
-    for (int i = 0; i < *totalContato; i++)
-    {
-        fscanf(arq_agenda, " %127[^,], %14[^\n]\n", listContato[i].nome, listContato[i].telefone);
+    while (fscanf(arq_agenda, " %127[^,], %14[^\n]\n", listContato[*totalContato].nome, listContato[*totalContato].telefone) == 2) {
+        (*totalContato)++;
+        if (*totalContato >= TAM) break;
     }
+
 
     fclose(arq_agenda);
 }

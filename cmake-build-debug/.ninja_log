@@ -1,3 +1,21 @@
 # ninja log v6
 11	199	7657894290058016	CMakeFiles/Agenda_de_Contato.dir/main.c.obj	998267c4ceea3c7d
 201	412	7657894291963266	Agenda_de_Contato.exe	e200bd99f1b8bfe4
+5	201	7658191536092249	CMakeFiles/Agenda_de_Contato.dir/agenda.c.obj	fd60bb3f553baa69
+203	472	7658191538093936	Agenda_de_Contato.exe	a9810026e667da85
+6	117	7658320488479389	CMakeFiles/Agenda_de_Contato.dir/agenda.c.obj	fd60bb3f553baa69
+117	327	7658320489592590	Agenda_de_Contato.exe	a9810026e667da85
+8	282	7658413045060917	CMakeFiles/Agenda_de_Contato.dir/agenda.c.obj	fd60bb3f553baa69
+283	492	7658413047806586	Agenda_de_Contato.exe	a9810026e667da85
+24	282	7658672573593774	CMakeFiles/Agenda_de_Contato.dir/agenda.c.obj	fd60bb3f553baa69
+283	547	7658672576192225	Agenda_de_Contato.exe	a9810026e667da85
+11	130	7658759733777358	CMakeFiles/Agenda_de_Contato.dir/agenda.c.obj	fd60bb3f553baa69
+131	281	7658759734974078	Agenda_de_Contato.exe	a9810026e667da85
+5	195	7659014025622694	CMakeFiles/Agenda_de_Contato.dir/agenda.c.obj	fd60bb3f553baa69
+196	395	7659014027527262	Agenda_de_Contato.exe	a9810026e667da85
+4	148	7659057978237161	CMakeFiles/Agenda_de_Contato.dir/agenda.c.obj	fd60bb3f553baa69
+149	349	7659057979681809	Agenda_de_Contato.exe	a9810026e667da85
+8	142	7659063484153200	CMakeFiles/Agenda_de_Contato.dir/agenda.c.obj	fd60bb3f553baa69
+142	313	7659063485501333	Agenda_de_Contato.exe	a9810026e667da85
+13	194	7659069452418006	CMakeFiles/Agenda_de_Contato.dir/agenda.c.obj	fd60bb3f553baa69
+195	403	7659069454241971	Agenda_de_Contato.exe	a9810026e667da85
